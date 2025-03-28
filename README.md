@@ -23,7 +23,7 @@ This project aims to detect skin diseases in stray dogs using computer vision an
 ## Installation
 1. Clone the repository:
    sh
-   git clone https://github.com/your-username/stray-dog-skin-disease-detection.git
+   git clone https://github.com/YarramasuSindhuja/AI_Powered_dog_skin_disease_detection.git
    
 2. Navigate to the project directory:
    sh

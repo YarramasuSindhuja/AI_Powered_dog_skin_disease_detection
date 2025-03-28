@@ -1,2 +1,59 @@
-# AI_Powered_dog_skin_disease_detection
-A deep learning-based system to analyze the health conditions of stray dogs using computer vision. The model identifies whether a dog is malnourished, diseased, or vaccinated based on image inputs, aiming to support animal welfare efforts.
+# Stray Dog Skin Disease Detection
+
+## Overview
+This project aims to detect skin diseases in stray dogs using computer vision and deep learning techniques. By analyzing images, the model can classify whether a dog has a skin disease, helping in early detection and intervention for animal welfare.
+
+## Features
+- *Automated Disease Detection:* Identifies skin diseases in stray dogs from images.
+- *Deep Learning Model:* Uses CNN-based architectures for classification.
+- *Preprocessing Pipeline:* Includes image augmentation and normalization.
+- *Evaluation Metrics:* Uses accuracy, precision, recall, and F1-score for performance assessment.
+
+## Dataset
+- The dataset consists of images of stray dogs with and without skin diseases.
+- Images are labeled for supervised learning.
+
+## Technologies Used
+- Python
+- TensorFlow/Keras
+- OpenCV
+- NumPy & Pandas
+- Matplotlib & Seaborn
+
+## Installation
+1. Clone the repository:
+   sh
+   git clone https://github.com/your-username/stray-dog-skin-disease-detection.git
+   
+2. Navigate to the project directory:
+   sh
+   cd stray-dog-skin-disease-detection
+   
+3. Install dependencies:
+   sh
+   pip install -r requirements.txt
+   
+
+## Usage
+1. Prepare the dataset and place it in the data/ directory.
+2. Train the model:
+   sh
+   python train.py
+   
+3. Run inference on new images:
+   sh
+   python predict.py --image path/to/image.jpg
+   
+
+## Results
+- Model performance is evaluated using various metrics.
+- Visualizations of sample predictions are provided.
+
+## Contributions
+Contributions are welcome! Feel free to submit issues or pull requests.
+
+## License
+This project is licensed under the MIT License.
+
+## Contact
+For any inquiries, reach out at yarramsusindhuja@gmail.com

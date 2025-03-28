@@ -33,16 +33,6 @@ This project aims to detect skin diseases in stray dogs using computer vision an
    sh
    pip install -r requirements.txt
    
-
-## Usage
-1. Prepare the dataset and place it in the data/ directory.
-2. Train the model:
-   sh
-   python train.py
-   
-3. Run inference on new images:
-   sh
-   python predict.py --image path/to/image.jpg
    
 
 ## Results
